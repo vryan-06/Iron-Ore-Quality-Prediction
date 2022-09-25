@@ -1,1 +1,3 @@
-# Iron-Ore---Quality-Prediction-
+# Iron Ore-Quality Prediction
+
+TE Mini Project topic. 
