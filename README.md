@@ -14,8 +14,79 @@ We are trying to create a platform that will help customers who require a certai
 
 # Website Idea
 
-**Summary**:<br>
-We are trying to make a web which will connect mining plants and buyers(steel factories, etc) who need some x% pure iron. The mining plants will enter the lab results and then the ML model will predict the purity of ores found in that particular plant. Later on it updates the mining plant's details along with its purity. The buyers will be able to find mining plants that have the x% pure iron.
+## Iron Ore Quality Predictor
+
+To connect buyers and sellers of Iron Ore and offer high quality iron for their purposes.
+
+## Frontend( React )
+
+#### To install dependency
+
+```
+npm install
+```
+
+#### To start the server
+
+```
+npm start
+```
+
+#### For Production Build
+
+```
+npm run build
+```
+
+- I have used proxy `http://127.0.0.1` for axios in package.json
+- You can set axios.defaults.baseURL = `https://api.example.com` Globally
+
+## Backend( Django )
+
+#### Installing
+
+open terminal and type
+
+```
+git clone 
+```
+followed by the repo link.
+
+#### Requirements
+
+To install requirements type
+
+```
+pip install -r requirements.txt
+```
+
+`To use Github api put your credentials in settings.py`
+
+```
+GIT_CLIENT_ID = 'your github client id'
+GIT_CLIENT_SECRET = 'your github client secret'
+```
+
+To migrate the database open terminal in project directory and type
+
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+To run the program in local server use the following command
+
+```
+python manage.py runserver
+```
+
+Server will be available at `http://127.0.0.1:8000` in your browser
+
+Don't Forget to whitelist your host origin using `django-cors-header` when using in production<br>
+[See Documentation](https://pypi.org/project/django-cors-headers/)
+
+========Thank You !!!=========
+
 
 
 ---------------
