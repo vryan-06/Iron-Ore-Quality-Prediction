@@ -95,3 +95,4 @@ Don't Forget to whitelist your host origin using `django-cors-header` when using
 Dataset: https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process<br>
 https://medium.com/swlh/what-if-eda-skipped-6f4e49798c06<br>
 https://mineralsmakelife.org/blog/iron-ore-serves-as-the-backbone-to-nearly-every-industry/<br>
+https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/<br>
